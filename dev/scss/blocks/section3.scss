@@ -1,0 +1,25 @@
+.section-3{
+    position: relative;
+    width: 90%;
+    &::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 420px;
+        background-color: $panel-color;
+        top: 70px;
+        left:0;
+        z-index: -1;
+    }
+   
+    .container-text3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 773px;
+        padding-bottom: 1.5rem;
+        .sec3-text{
+            font-size: 13px;
+        }
+    }
+}

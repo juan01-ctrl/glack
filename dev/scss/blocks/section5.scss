@@ -1,0 +1,49 @@
+.section-5{
+    position: relative;
+    height: 650px;
+    
+}
+.blog-post{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 0;
+
+    .date{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       justify-content: center ;
+        &-number{
+            font-size: 26px;
+        }
+        &-month{
+            font-size: 12px;
+            color: $secondText-color;
+        }
+    }
+    .post-text{
+        text-align: left;
+        padding-left: 3rem;
+        font-size: 20px;
+    }
+    .post-block{
+        display: flex;
+    }
+    .read-more-post{
+        color: $first-color;
+        transition:color .3s ease ;
+        &:hover{
+            color: $text-color;
+        }
+    }
+}
+.post-container{
+    background-color: $panel-color;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 2rem 9rem 2rem 6rem;
+   width: 70%;
+    min-width: 50%;
+}

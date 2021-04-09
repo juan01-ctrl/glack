@@ -1,0 +1,45 @@
+.footer{
+    background-color: rgb(7, 7, 7);
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: top;
+    .flyn-info{
+        margin-bottom: 2rem;
+        .logo{
+            font-size: 30px;
+            padding-bottom: 2rem;
+        }
+        .address,.call-us{
+            padding: 1rem 0;
+        }
+    }
+    .page-sections-footer{
+        display:flex;
+        flex-wrap: wrap;
+        h4{
+           margin: 0;
+           font-size: 20px;
+        }
+        display: flex;
+        ul{
+            padding: 0 3rem 0 0;
+        }
+        .footer-item{
+            line-height: 2;
+            
+            a{
+                color: $text-color;
+                font-size: 14px;
+                transition: color .3s ease;
+                &:hover{
+                    color: $first-color;
+                }
+            }
+        }
+    }
+    .sec-footer{
+        padding: 0 2rem;
+    }
+}
