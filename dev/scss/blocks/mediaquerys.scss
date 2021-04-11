@@ -35,10 +35,15 @@
         height: auto;
     }
     .post-container{
+        display: flex;
+        flex-direction: column;
         position: static;
         width: 100%;
         padding: 1.5rem ;
         box-shadow: 2px 2px 3px 0px $first-color;
+        .button{
+            align-self: flex-end;
+        }
         .read-more-post{
             font-size: 12px;
             margin: .5rem 0 2rem 0;
@@ -192,6 +197,7 @@
     .section-5{
         padding-left: 0;
         padding-right: 0;
+    
     }
     .container-text3{
         flex-direction: column;
