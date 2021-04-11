@@ -17,6 +17,7 @@
 //MEDIAQUERY TABLET
 
 @include media-tablet {
+    
    
     .intro-sec4{
         margin-bottom: 2rem;
@@ -28,6 +29,7 @@
     }
     .sec5-title{
         margin-bottom: 3rem;
+        text-align: center;
     }
     .section-5{
         height: auto;
@@ -108,6 +110,10 @@
         &-button{
             margin-top: 0;
             width: 8rem;
+        }
+        .sec1-text{
+            font-size: 17px;
+
         }
     }
    
@@ -194,7 +200,7 @@
         background-color: transparent;
     }
    .h2-title{
-       font-size: 20px;
+       font-size: 24px;
    }
    .intro-sec4 .button{
        font-size: 15px;
